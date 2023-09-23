@@ -1,0 +1,39 @@
+
+.tablo{
+    text-align: center;
+    margin: 50px auto;
+    color: white;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+tr{
+    border: none;
+    background-color:#526D82;
+}
+td{
+    color: black;
+    background-color:#ECF9FF;
+    font-size: 15px;
+    padding: 3px;
+}
+.alis{
+    background-color: #DDFFBB;
+}
+.satis{
+    background-color: #B7B7B7;
+}
+.a1{
+    background-color: #E3F4F4;
+}
+td:hover {
+    transition: transform 0.1s;
+    transform: scale(1.04);
+    background-color: #FFFFF1;
+}
+.tr1:hover{
+    transform: none;
+}
